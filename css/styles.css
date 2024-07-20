@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: url("../img/weatherAppImage.webp") center/cover no-repeat fixed;
+    overflow-y: hidden;
+}
+
+#weatherApp {
+    margin: auto;
+    width: 350px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#location-input {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+#weather-data {
+    margin: 0 auto;
+    width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+}
